@@ -1,0 +1,16 @@
+version: '3'
+services:
+  mercadolibre:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    image: front-meli
+    container_name: mercadolibre
+    restart: always 
+    ports:
+      - "3000:3000"
+    environment:
+      VITE_URL_API: ${VITE_URL_API}
+
+
+ 

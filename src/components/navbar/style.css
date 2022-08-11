@@ -1,0 +1,33 @@
+.navbar {
+  background-color: #ffe600;
+}
+.navbar-brand {
+  margin-left: 9%;
+}
+
+.form-control {
+  box-shadow: none !important;
+}
+.nav-search {
+  width: 82%;
+  font-size: 18px !important;
+}
+
+.input-group {
+  flex-wrap: inherit !important;
+}
+.nav-search-btn {
+  background-color: #eeeeee !important;
+  height: 48px !important;
+  margin-left: none !important;
+  outline: none !important;
+  padding: none !important;
+}
+
+.nav-icon-search {
+  height: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: auto;
+}
